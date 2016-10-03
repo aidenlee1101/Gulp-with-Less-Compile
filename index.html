@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Google Map Javascript test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Flipmind">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner">Chauffeured Cars</div>
+
+    <span class="search-label">Pickup Location</span>
+    <input id="pac-input" class="controls searchbox" type="text" placeholder="Search Box">
+
+    <div id="type-selector" class="controls">
+        <input type="radio" name="type" id="changetype-all" checked="checked">
+        <label for="changetype-all">All</label>
+        <input type="radio" name="type" id="changetype-establishment">
+        <label for="changetype-establishment">Establishments</label>
+        <input type="radio" name="type" id="changetype-address">
+        <label for="changetype-address">Addresses</label>
+        <input type="radio" name="type" id="changetype-geocode">
+        <label for="changetype-geocode">Geocodes</label>
+    </div>
+
+    <div id="map"></div>
+    <!-- javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    
+</body>
+
+</html>
