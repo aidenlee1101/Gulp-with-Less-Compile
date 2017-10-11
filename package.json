@@ -1,5 +1,5 @@
 {
-  "name": "brittian-responsive",
+  "name": "less-project",
   "version": "1.0.0",
   "description": "To setup run: 'npm install', To compile CSS run 'gulp', to auto-compile run 'gulp watch'",
   "main": "gulpfile.js",
